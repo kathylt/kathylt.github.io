@@ -1,0 +1,167 @@
+.App-header {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  footer {
+    background-color: #346cb0;
+    font-family: 'Montserrat', sans-serif;
+    color:  #a2cffe;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 16pt;
+    padding: 15px;
+  }
+  
+  .footer-text p {
+    padding-left: 50px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+
+  .footer-text a {
+      color: #a2cffe;
+  }
+  
+  .HomePageContainer {
+    margin: 60px;
+    color: #262b2f;
+    background-color: white;
+}
+
+div.HomePageHeader {
+    margin: 30px;
+    text-align: center;
+}
+
+div#project-container {
+    background-color: #a2cffe;
+}
+
+#project-container {
+    color: white;
+
+}
+
+#project-container h3 {
+    font-weight: bold;
+    font-size: 30pt;
+    margin-left: 55px;
+}
+
+div.project-panel-container {
+    background-color: #346cb0;
+    margin: 60px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+h4 {
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 23pt;
+}
+
+.project-panel-container p {
+    font-size: 18pt;
+}
+
+div.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    background-color: gray;
+    padding:  20px;
+    border-radius: 5px;
+}
+
+div.flex-item1 {
+    margin-right: 20px;
+    width: 30%;
+}
+
+div.flex-item2 {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.flex-container ul, li {
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 18pt;
+}
+
+.flex-item1 ul {
+    margin-top: 0px;
+    margin-left: -40px;
+}
+
+.flex-item2 ul {
+    margin-top: -22px;
+    margin-left: -40px;
+}
+
+a {
+    color: white;
+}
+
+div#button {
+    margin-left: 25px;
+    margin-top: 10px;
+    background-color: #a2cffe;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+#button a {
+    text-decoration: none;
+    color: #346cb0;
+    font-weight: bolder;
+    font-size: 18pt;
+}
+
+div.CoursePageContainer {
+    margin: 30px;
+    color:#262b2f;
+   }
+   
+   .CoursePageContainer ul {
+       font-weight: bold;
+       margin-bottom: 0px;
+   }
+
+   div.nav-bar {
+    background-color: #346cb0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    position: sticky;
+}
+
+.nav-bar a {
+    padding: 20px 5%;
+    float: right;
+    text-decoration: none;
+    color: #a2cffe;
+}
